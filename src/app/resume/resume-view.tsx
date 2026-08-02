@@ -7,8 +7,8 @@ import { Download, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ResumeDoodle from "./resume-doodle";
 
-// Drop the compiled PDF here: frontend/public/Naresh_Khatri_Resume.pdf
-const RESUME_PATH = "/Naresh_Khatri_Resume.pdf";
+// Drop the compiled PDF here: frontend/public/Poloju_Adharsh_chary.pdf
+const RESUME_PATH = "/Poloju_Adharsh_Chary.pdf";
 
 export default function ResumeView() {
   return (
@@ -60,7 +60,7 @@ export default function ResumeView() {
         >
           <ResumeDoodle
             src={`${RESUME_PATH}#toolbar=0&navpanes=0&view=FitH`}
-            title="Naresh Khatri — Résumé"
+            title="Poloju Adharsh — Résumé"
           />
         </motion.div>
       </div>

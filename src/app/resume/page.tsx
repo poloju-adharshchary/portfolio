@@ -1,9 +1,9 @@
 import ResumeView from "./resume-view";
 
 export const metadata = {
-  title: "Résumé | Naresh Khatri",
+  title: "Résumé | Poloju Adharsh Chary",
   description:
-    "Résumé of Naresh Khatri — Senior Full-Stack Engineer. View online or download the PDF.",
+  "Résumé of Poloju Adharsh Chary — Full Stack Developer and AI Enthusiast. View online or download the latest resume.",
 };
 
 export default function ResumePage() {
