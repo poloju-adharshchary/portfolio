@@ -26,18 +26,18 @@ keywords: [
 ],
   author: "Poloju Adharsh Chary",
   email: "polojuadharshchary@gmail.com",
-  site: "http://localhost:3000",
+  site: "https://portfolio-liard-three-o77n75o4ns.vercel.app/",
 
   // for github stars button
   githubUsername: "poloju-adharshchary",
-  githubRepo: "ai-interview-guide-deployment1",
+  githubRepo: "portfolio",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
     twitter: "https://www.instagram.com/polojuadharshchary/?hl=en",
-    linkedin: "https://www.linkedin.com/in/poloju-adharsh-chary-73ba88324/",
+    linkedin: "https://www.linkedin.com/in/poloju-adharsh-73ba88324/",
     instagram: "https://www.instagram.com/polojuadharshchary/?hl=en",
     facebook: "https://www.facebook.com/profile.php?id=100075999729172",
     github: "https://github.com/poloju-adharshchary",
