@@ -4,7 +4,14 @@ import { Button } from "@/components/ui/button";
 import { TypographyH3, TypographyP } from "@/components/ui/typography";
 import { ArrowUpRight } from "lucide-react";
 import { ReactNode } from "react";
-import { SiThreedotjs } from "react-icons/si";
+import {
+  SiThreedotjs,
+  SiCss3,
+  SiVite,
+  SiAxios,
+  SiFastapi,
+  SiMysql,
+} from "react-icons/si";
 
 const BASE_PATH = "/assets/projects-screenshots";
 
@@ -123,11 +130,26 @@ const PROJECT_SKILLS = {
     "javascript-mono.svg"
   ),
 
-  css: brand("CSS", "css-mono.svg"),
+  css: {
+  title: "CSS",
+  bg: "black",
+  fg: "white",
+  icon: <SiCss3 />,
+},
 
-  vite: brand("Vite", "vite-mono.svg"),
+vite: {
+  title: "Vite",
+  bg: "black",
+  fg: "white",
+  icon: <SiVite />,
+},
 
-  axios: brand("Axios", "axios-mono.svg"),
+axios: {
+  title: "Axios",
+  bg: "black",
+  fg: "white",
+  icon: <SiAxios />,
+},
 
   /* ---------------- BACKEND ---------------- */
 
@@ -136,15 +158,19 @@ const PROJECT_SKILLS = {
     "python-mono.svg"
   ),
 
-  fastapi: brand(
-    "FastAPI",
-    "fastapi-mono.svg"
-  ),
+  fastapi: {
+  title: "FastAPI",
+  bg: "black",
+  fg: "white",
+  icon: <SiFastapi />,
+},
 
-  mysql: brand(
-    "MySQL",
-    "mysql-mono.svg"
-  ),
+mysql: {
+  title: "MySQL",
+  bg: "black",
+  fg: "white",
+  icon: <SiMysql />,
+},
 
   /* ---------------- AI ---------------- */
 
